@@ -5,7 +5,6 @@
   "description": "Essence.it server",
   "license": "MIT",
   "scripts": {
-    "build": "tsc",
     "start": "node api/index.ts",
     "dev": "ts-node-dev --respawn --transpile-only ./src/app.ts",
     "lint": "eslint src/**/*.ts",
